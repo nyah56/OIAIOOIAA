@@ -1,5 +1,5 @@
 <script setup>
-import OIAOOIAOO from './components/OIAOOIAOO.vue';
+import OIAOOIAOO from './components/OIAIOOIAA.vue';
 </script>
 
 <template>
