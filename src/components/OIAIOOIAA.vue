@@ -9,7 +9,7 @@
         <video src="/cat.webm" class="w-48 h-48 rounded-full object-cover" autoplay loop muted v-else preload></video>
     <div>
         <button class="bg-blue-500 text-white py-2 px-4 rounded-md cursor-pointer mt-8 hover:bg-cyan-500"
-            @mousedown="toggleActive = false" @mouseup="toggleActive = true" @mouseleave="toggleActive = true">
+            @pointerdown="toggleActive = false" @pointerup="toggleActive = true" @pointerleave="toggleActive = true">
            <IconPlay v-if="toggleActive"/>
            <IconPause v-else/>
         </button>
