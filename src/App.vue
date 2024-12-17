@@ -5,10 +5,10 @@ import OIAOOIAOO from './components/OIAIOOIAA.vue';
 <template>
 
   <!-- ... -->
-  <div class="h-screen flex justify-center items-center">
+  <div class="h-screen flex justify-center items-center ">
     <OIAOOIAOO />
   </div>
 
 </template>
 
-<style scoped></style>
+

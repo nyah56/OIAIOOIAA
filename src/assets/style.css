@@ -2,7 +2,21 @@
 @import "tailwindcss";
 
 @theme{
-    --color-primary:var(--color-blue-500)
+    --color-primary:var(--color-blue-500);
+    --animate-car:car 2750ms ease 0s infinite normal forwards;
+    @keyframes car {
+        0% {
+            transform: scale(1);
+        }
+    
+        50% {
+            transform: scale(1.05);
+        }
+    
+        100% {
+            transform: scale(1);
+        }
+    }
 }
 body {
     font-family: "Roboto", sans-serif;
